@@ -6,9 +6,9 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
       <div class="container-fluid py-3 px-5">
-        <a class="navbar-brand fw-bold fs-3" href="#">
+        <a class="navbar-brand fw-bold fs-2" href="#">
           Time<span className="colorone">Zoo</span>
         </a>
         <button
@@ -43,7 +43,7 @@ const Navbar = () => {
             </a>
           </li>
           <li class="nav-item dropdown position-relative">
-            <a class="navlinks dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" href="#">
+            <a class="navlinks dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
               Latest
             </a>
             <ul class="dropdown-menu">
@@ -78,12 +78,12 @@ const Navbar = () => {
             </ul>
           </li>
           <li class="nav-item menu">
-            <a class="navlinks dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+            <a class="navlinks dropdown-toggle"  href="#/" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
               Pages
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="#/">
                   Login
                 </a>
               </li>

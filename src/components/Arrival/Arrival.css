@@ -1,0 +1,16 @@
+.Arrival {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.titles {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.card-img-top {
+    height: 450px;
+    width: 100%;
+    object-fit:cover;
+}
+.card-text {
+    color: var(--color1);
+}
