@@ -6,8 +6,11 @@
   --color1: #FF2022;
 }
 
-body {
+* {
   font-family: "Josefin Sans", sans-serif;
+}
+.fontstyle2 {
+  font-family: "Poppins", sans-serif;
 }
 .colorone {
   color: #FF2022;

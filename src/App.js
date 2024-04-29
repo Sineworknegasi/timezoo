@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Hero from './components/Hero/Hero';
 import Arrival from './components/Arrival/Arrival';
+import Watch from './components/Watch/Watch';
+import Product from './components/Product/Product';
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
     <Navbar/>
     <Hero/>
     <Arrival/>
+    <Watch/>
+    <Product/>
     </>
   );
 }

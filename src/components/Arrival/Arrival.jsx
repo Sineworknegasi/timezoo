@@ -26,7 +26,7 @@ const datas = [
 ].map((data) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-      <div className="card">
+      <div className="card z-3">
         <img src={data.image} className="card-img-top img-fluid" alt="..." />
         <div className="card-body">
           <h5 className="card-title text-center fs-5 fw-bold">{data.name}</h5>
@@ -42,7 +42,7 @@ const Arrival = () => {
     <section className="Arrival py-5">
       <div className="container pt-5">
         <h1 className="titles py-5">New Arrivals</h1>
-        <div className="row px-5">{datas}</div>
+        <div className="row ">{datas}</div>
       </div>
     </section>
   );

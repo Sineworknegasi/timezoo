@@ -10,6 +10,13 @@
     height: 450px;
     width: 100%;
     object-fit:cover;
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 0;
+    overflow: hidden;
+}
+.card-img-top:hover {
+    transform: scale(1.02);
 }
 .card-text {
     color: var(--color1);

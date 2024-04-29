@@ -6,7 +6,7 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
       <div class="container-fluid py-3 px-5">
         <a class="navbar-brand fw-bold fs-2" href="#">
           Time<span className="colorone">Zoo</span>

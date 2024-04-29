@@ -1,0 +1,64 @@
+.watch {
+    
+}
+.watch .bg-one {
+    background: url("https://preview.colorlib.com/theme/timezone/assets/img/gallery/gallery1.png.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    background-position: center center;
+}
+.watch .bg-three {
+    background: url("https://preview.colorlib.com/theme/timezone/assets/img/gallery/gallery3.png.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    background-position: center center;
+    cursor: pointer;
+}
+.watch .bg-four {
+    background: url("https://preview.colorlib.com/theme/timezone/assets/img/gallery/gallery4.png.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.bg-one::after,
+.bg-two::after,
+.bg-three::after,
+.bg-four::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: black;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.bg-one:hover::after,
+.bg-two:hover::after,
+.bg-three:hover::after,
+.bg-four:hover::after {
+    width: 100%;
+}
+
+.watch .bg-two {
+    background: url("https://preview.colorlib.com/theme/timezone/assets/img/gallery/gallery2.png.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    background-position: center center;
+    cursor: pointer;
+}
