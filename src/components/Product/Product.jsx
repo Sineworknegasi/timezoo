@@ -82,7 +82,7 @@ const Product = () => {
       </div>
       <div className="row py-5">
         <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center py-5">
-          <button className="Shop_btn w-25 p-4 fontstyle2 fw-normal fs-5 ">VIEW MORE PRODUCTS</button>
+          <button className="Shop_btn w-25 p-3 fontstyle2 fw-normal fs-5 ">VIEW MORE PRODUCTS</button>
         </div>
       </div>
     </section>

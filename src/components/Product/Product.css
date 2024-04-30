@@ -31,5 +31,5 @@
 }
 .Product_cards:hover .love_icon, .Product_cards:hover .Add_btn{
     opacity: 1;
-    height: 20%;
+    height: 15%;
 }

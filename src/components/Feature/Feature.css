@@ -1,0 +1,12 @@
+.feature_section {
+    background: var(--color1);
+    color: white;
+}
+.feature_icon {
+    color: white;
+    font-size: 3rem;
+}
+.feature_text {
+    font-family: sans-serif;
+    color: rgb(211, 211, 211);
+}

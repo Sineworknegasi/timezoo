@@ -1,0 +1,75 @@
+.video_section {
+    background-image: url(https://preview.colorlib.com/theme/timezone/assets/img/gallery/sectin_bg1.png.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.video_section:hover::before {
+    opacity: 0.5;
+}
+.Video_Icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    width: 100px;
+    border: 2px solid white;
+    height: 100px;
+    padding: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+}
+.Video_Icon:hover {
+    background-color: white;
+    color: var(--color1);
+    transition: all 0.5s;
+}
+.video_buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.video_buttons {
+    background-color: var(--color1);
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17%;
+    padding: 0 5rem;
+    color: white;
+}
+.arrow_icon {
+    cursor: pointer;
+    animation: lefttoright 2s linear infinite;
+}
+
+@keyframes lefttoright {
+    0% {
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
