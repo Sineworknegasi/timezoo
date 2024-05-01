@@ -1,0 +1,12 @@
+.Footer_section p {
+    color: rgb(151, 151, 151);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 400;
+}
+.Footer_section p:hover {
+    color: var(--color1);
+    transform: translateX(2%);
+}

@@ -11,6 +11,7 @@ import Video from './components/Video/Video';
 import Choice from './components/Choice/Choice';
 import Choice1 from './components/Choice1/Choice1';
 import Feature from './components/Feature/Feature';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <Choice/>
     <Choice1/>
     <Feature/>
+    <Footer/>
     </>
   );
 }
