@@ -3,14 +3,15 @@ import "./Navbar.css";
 import { CiSearch } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
       <div class="container-fluid py-3 px-5">
-        <a class="navbar-brand fw-bold fs-2" href="#">
+        <Link class="navbar-brand fw-bold fs-2" to="/">
           Time<span className="colorone">Zoo</span>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"

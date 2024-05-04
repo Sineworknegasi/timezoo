@@ -1,0 +1,10 @@
+.shop_section button{
+    border: none;
+    border-bottom: 2px solid var(--color1);
+    padding: 1rem;
+    background-color: transparent;
+    margin:0 0.5rem ;
+}
+select {
+    padding:  0 2rem;
+}
