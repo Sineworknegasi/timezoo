@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100 z-3">
-      <div class="container-fluid py-3 px-5">
+      <div class="container-fluid py-3 px-2 px-md-5 ">
         <Link class="navbar-brand fw-bold fs-2" to="/">
           Time<span className="colorone">Zoo</span>
         </Link>
@@ -29,19 +29,19 @@ const Navbar = () => {
           id="navbarTogglerDemo01"
         >
           <li class="nav-item ">
-            <a class="navlinks" aria-current="page" href="#">
+            <Link class="navlinks" aria-current="page" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="navlinks" href="#">
+            <Link class="navlinks" aria-current="page" to="/shop">
               Shop
-            </a>
+            </Link>
           </li>
           <li class="nav-item">
-            <a class="navlinks" aria-current="page" href="#">
+            <Link class="navlinks" aria-current="page" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li class="nav-item dropdown position-relative">
             <a class="navlinks dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
@@ -116,9 +116,9 @@ const Navbar = () => {
             </ul>
           </li>
           <li class="nav-item">
-            <a class="navlinks" aria-current="page" href="#">
+            <Link class="navlinks" aria-current="page" to='/contact'>
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="cart_icon fs-4 d-flex justify-content-center w-md-100 gap-4 align-items-center">

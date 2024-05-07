@@ -15,6 +15,8 @@ import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
 import Shop from "./Pages/Shop/Shop";
 import Title from "./Pages/Title/Title";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
 
 function App() {
   return (
@@ -39,6 +41,12 @@ function App() {
         <Route path="/shop" element={<>
         <Shop/>
         <Feature/>
+        </>} />
+        <Route path="/about" element={<>
+        <About/>
+        </>} />
+        <Route path="/contact" element={<>
+        <Contact/>
         </>} />
       </Routes>
       <Footer />

@@ -1,0 +1,15 @@
+
+.about_pages .red_title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    position: relative;
+}
+.red_title::before {
+    content: "";
+    position: absolute;
+    width: 8%;
+    height: 5px;
+    background: var(--color1);
+    left: -10%;
+    top: 35%;
+}

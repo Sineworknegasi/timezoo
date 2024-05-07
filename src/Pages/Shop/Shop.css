@@ -6,5 +6,6 @@
     margin:0 0.5rem ;
 }
 select {
-    padding:  0 2rem;
+    padding:0 1rem;
+    height: 50px;
 }
